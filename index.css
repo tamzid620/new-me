@@ -1,0 +1,184 @@
+*{
+   margin: 0; 
+}
+#button-primary{
+    color: white;
+    text-align: center;
+    background-color: #41B3A3;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 20px rgba(122, 118, 118, 0.178); ;
+}
+#button-primary:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+/* header part */
+
+.header{
+    background-image: url('new-year-new-me-main/images/banner/banner1.png');
+    /* background-size: cover;
+    align-items:center;
+    text-align: center;
+    justify-content:center; */
+   
+}
+.banner{
+    display: flex;
+    background-size: cover;
+    align-items:center;
+    text-align: justify;
+    align-items: center;
+    /* background-image: url('new-year-new-me-main/images/banner/banner1.png'); */
+    height: 100vh;
+    line-height: 20px;
+}
+/* } */
+.banner-div{
+    margin-right: 200px;
+    margin-left: 750px;
+    display: block;
+    text-align: justify;
+   
+}
+.banner-tittle{
+    display: flex;
+    font-size: 300%;
+    line-height: 60px;
+}
+.banner-info{
+    display: flex;
+    color: #444343;
+}
+
+/* main part */
+
+article{
+    display: flex;
+}
+.section{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    background: white;
+    border-radius: 10px;
+    text-align:center;
+}
+.section-img{
+    /* display: flex; */
+}
+.section-div{
+    margin-top: 120px;
+    margin-right: 250px;
+    margin-left: 140px;
+    display: block;
+    text-align: justify;
+    align-items:center;
+    line-height: 20px;
+  
+}
+
+.section-div-tittle{
+    display: flex;
+    font-size:150%;
+    line-height:30px;
+   
+}
+.section-div-info{
+    color: #444343;
+}
+li{
+    list-style-type: none;
+}
+.skill-container{
+    display:flex;
+    text-align: center;
+    gap: 30px;
+    
+}
+.section-1{
+    margin-top:100px;
+    margin-left:300px;
+    display: block;
+    text-align: center;
+   
+}
+.section-div-tittle-1{
+    margin-bottom: 60px;
+}
+.skill{
+    
+}
+.skill-tittle{
+  
+}
+.skill-info{
+    
+    color: #444343;
+}
+.section-2{
+    margin-top:100px;
+    background: linear-gradient(90deg, #1ecf8ba2 0%, rgba(241, 91, 34, 0) 100%), url('new-year-new-me-main/images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1000px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.section-2-div{
+    display: block;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.section-2-div-tittle{
+   font-size: 30px;
+    color: white;
+}
+/* footer part */
+footer{
+    display: flex;
+    color: bisque;
+    background-color: black;
+    display: flex;
+    margin-top: 100px;
+    padding: 50px;
+    
+}
+
+.info{
+    display:flex;
+    gap:100px;
+    background:black;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    
+}
+span{
+    line-height: 35px;
+}
+.insruction{
+    display: block;
+    text-align: left;
+}
+
+.ins-tittle-1{
+    display: block;
+    font-size:150%;
+    margin-right: 300px;
+    margin-bottom:24px;   
+}
+input{
+    margin-bottom: 24px;
+    
+    padding:3px 7px;
+
+}
+
+
